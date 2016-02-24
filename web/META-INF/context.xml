@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/DBSearcher">
+  <Resource auth="Container" driverClassName="net.sourceforge.jtds.jdbc.Driver" maxActive="50" maxIdle="30" maxWait="10000" name="jdbc/socc_old_db" password="Qqwerty1!" type="javax.sql.DataSource" url="jdbc:jtds:sqlserver://kzatsrv0019:1433/SOCC_HSE" username="SOCC_HSE_BI"/>
+  <Resource auth="Container" driverClassName="net.sourceforge.jtds.jdbc.Driver" maxActive="50" maxIdle="30" maxWait="10000" name="jdbc/local_db" password="Kobasoft1989" type="javax.sql.DataSource" url="jdbc:jtds:sqlserver://ncatwks1527:1433;DatabaseName=AdventureWorks2008;instance=SQLEXPRESS;" username="sa"/>
+</Context>
