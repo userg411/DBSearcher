@@ -12,10 +12,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.ViewScoped;
 
-/**
- *
- * @author nk91008743
- */
+
 @ManagedBean(name = "mainBean")
 @ViewScoped
 public class MainBean implements Serializable {
