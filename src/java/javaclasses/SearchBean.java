@@ -34,8 +34,8 @@ public class SearchBean  implements Serializable{
     private String searchText;
     private ArrayList <String> result; 
     private String resultAsText;
-    private String serverOrSid = "KZATSRV0019";
-    private String dbname = "MONITHOR_HSE";
+    private String serverOrSid = "";
+    private String dbname = "";
     private String userName;
     
     
@@ -191,7 +191,6 @@ public class SearchBean  implements Serializable{
         return false;
     }
     public   ArrayList<String> getResultsSQL2008(String serverName, String dbName, String userName, String password, ArrayList <String> types, String text){
-        //Connection conn = getCon("mssql2008","ncatwks1527//sqlexpress","","sa", "Kobasoft1989");
         Connection conn = getCon("mssql2008",serverName,dbName,userName,password);
         ArrayList<String> res = new ArrayList<>();
                 
